@@ -6,7 +6,7 @@ COMPILE
 1) Go to the working directory (/home/pi/workspace/image) in this case
 2) Copy the files in this directory
 3) Compile by using commands :
-  - # cmake .
-  - # make
+  - #cmake .
+  - #make
 4) Execute with the command : 
-  - # ./LeavesDetection image.jpg
+  - #./LeavesDetection image.jpg

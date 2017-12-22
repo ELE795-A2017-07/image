@@ -33,7 +33,7 @@ int main( int argc, char** argv )
 	//GaussianBlur( image1, image1, Size( 7, 7 ), 0, 0 );
 	
 	// We change image space from RGB to HSV
-    cvtColor(image,hsv,COLOR_BGR2HSV);
+    	cvtColor(image,hsv,COLOR_BGR2HSV);
 	
 	// H(0-255) S(0-50) V(0-255)
 	inRange(hsv,Scalar(0,0,0),Scalar(255,50,255),mask);
@@ -46,6 +46,6 @@ int main( int argc, char** argv )
 	
 	imwrite("img_temp.png",image, params);
 	
-    return 0;
+	return 0;
 
 }
